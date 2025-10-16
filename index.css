@@ -1,5 +1,5 @@
 body{
-    background-image: url('images/pattern-background-desktop.svg'), url('images/pattern-background-mobile.svg');
+    background-image: url('pattern-background-desktop.svg'), url('pattern-background-mobile.svg');
     background-position: top left, bottom right;
     background-repeat: no-repeat, no-repeat;
     background-size: contain, contain;
@@ -104,4 +104,5 @@ body{
 .cancel{
     font-weight: 700;
     color: hsl(224, 23%, 55%);
+
 }
