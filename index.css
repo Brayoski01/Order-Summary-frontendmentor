@@ -107,10 +107,26 @@ body{
 
 }
 
-@media(max-width: 700px){
+@media(max-width: 600px){
     .box{
-        height: auto;
+        width: 350px;
+        height: 450px;
+        padding-bottom: 20px;
+    }
+
+    .info{
         width: 100%;
     }
+
+    .plan{
+        width: 90%;
+        margin-left: -2px;
+    }
+
+    .price{
+        margin-right: 70px;
+    }
 }
+}
+
 
