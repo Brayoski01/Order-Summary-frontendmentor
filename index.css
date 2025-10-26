@@ -1,5 +1,5 @@
 body{
-    background-image: url('pattern-background-desktop.svg'), url('pattern-background-mobile.svg');
+    background-image: url('pattern-background-desktop.svg');
     background-position: top left, bottom right;
     background-repeat: no-repeat, no-repeat;
     background-size: contain, contain;
@@ -101,6 +101,12 @@ body{
     margin-bottom: 7px;
 }
 
+.btn:hover{
+    background-color: white;
+    color: hsl(245, 75%, 52%);
+    cursor: pointer;
+}
+
 .cancel{
     font-weight: 700;
     color: hsl(224, 23%, 55%);
@@ -112,6 +118,10 @@ body{
         width: 350px;
         height: 450px;
         padding-bottom: 20px;
+    }
+
+    body{
+        background-image: ('pattern-background-mobile.svg');
     }
 
     .info{
@@ -128,5 +138,6 @@ body{
     }
 }
 }
+
 
 
